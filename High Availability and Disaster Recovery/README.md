@@ -65,5 +65,5 @@ This documentation should be reviewed and updated:
 ## Contact
 
 For questions or updates regarding this documentation:
-- DevOps Team: devops@company.com
-- On-Call Support: +1-XXX-XXX-XXXX
+- DevOps Team: metedevops@getmobil.com
+- On-Call Support: 
