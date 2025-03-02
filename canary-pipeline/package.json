@@ -1,0 +1,26 @@
+{
+  "name": "canary-pipeline",
+  "version": "1.0.0",
+  "description": "AWS CDK implementation of a canary deployment pipeline for ECS applications",
+  "main": "bin/app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.124.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "20.7.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "aws-cdk": "2.124.0",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.2.2"
+  }
+}
