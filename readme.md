@@ -119,11 +119,8 @@ npm run deploy
 3. Submit pull requests
 4. Ensure documentation is updated
 
-## Support
-
 ### Contact Information
 - DevOps Team: metedevops@getmobil.com
-- On-call Support: Available 24/7
 
 ### Documentation
 - AWS Official Documentation
@@ -132,6 +129,3 @@ npm run deploy
 
 ## License
 Proprietary - All rights reserved
-
-## Version
-1.0.0
