@@ -66,4 +66,3 @@ This documentation should be reviewed and updated:
 
 For questions or updates regarding this documentation:
 - DevOps Team: metedevops@getmobil.com
-- On-Call Support: 
