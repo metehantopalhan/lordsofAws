@@ -126,6 +126,3 @@ npm run deploy
 - AWS Official Documentation
 - Internal Wiki
 - Architecture Diagrams
-
-## License
-Proprietary - All rights reserved
