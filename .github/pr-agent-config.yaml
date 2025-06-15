@@ -8,14 +8,14 @@ pr_agent:
     api_key: $OPENAI_API_KEY
     model: gpt-4o
     temperature: 0.4
-
+    
   code_review_prompt:
-    - "Lütfen kodu okunabilirlik açısından değerlendir."
-    - "Fonksiyonlar tek bir sorumluluğa mı sahip, belirt."
-    - "Kodda potansiyel güvenlik açıkları varsa açıkla."
-    - "Türkçe yorum yap."
-    - "Ben bir geyiğim diye başla"
-
+    - "Please evaluate the code in terms of readability."
+    - "Indicate whether the functions follow the single-responsibility principle."
+    - "Explain if there are any potential security vulnerabilities in the code."
+    - "Respond in Turkish."
+    - "Start your comment with: 'Ben bir geyiğim.' (I am a deer.)"
+  
   general_prompt:
-    - "Bu PR'ın amacı nedir? Özetle."
-    - "Kod değişikliklerinin sisteme etkisini değerlendir."
+    - "What is the purpose of this PR? Summarize it."
+    - "Evaluate the impact of the code changes on the overall system."
