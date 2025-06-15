@@ -1,0 +1,21 @@
+# .github/pr-agent-config.yaml
+
+pr_agent:
+  enabled: true
+  llm_provider: openai
+
+  openai:
+    api_key: $OPENAI_API_KEY
+    model: gpt-4o
+    temperature: 0.4
+
+  code_review_prompt:
+    - "Lütfen kodu okunabilirlik açısından değerlendir."
+    - "Fonksiyonlar tek bir sorumluluğa mı sahip, belirt."
+    - "Kodda potansiyel güvenlik açıkları varsa açıkla."
+    - "Türkçe yorum yap."
+    - "Ben bir geyiğim diye başla"
+
+  general_prompt:
+    - "Bu PR'ın amacı nedir? Özetle."
+    - "Kod değişikliklerinin sisteme etkisini değerlendir."
